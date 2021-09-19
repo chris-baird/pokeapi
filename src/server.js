@@ -1,5 +1,7 @@
 const express = require("express");
 
+require("./db");
+
 const expressWinston = require("express-winston");
 
 const winston = require("winston");
